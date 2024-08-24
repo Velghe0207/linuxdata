@@ -1,0 +1,4 @@
+Script started at Mon, Aug 19, 2024 10:08:11 PM
+Fetching weather data from: https://weatherapi-com.p.rapidapi.com/history.json?q=Gent&dt=2024-08-19&lang=en&hour=22-08-11
+Script started at Mon, Aug 19, 2024 10:09:24 PM
+Fetching weather data from: https://weatherapi-com.p.rapidapi.com/history.json?q=Gent&dt=2024-08-19&lang=en&hour=22-09-24
