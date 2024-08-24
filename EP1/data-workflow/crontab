@@ -1,1 +1,0 @@
-*/5 * * * * /home/linuxmint/Documents/Scripts/weather_script.sh && /home/linuxmint/Documents/Scripts/stock_script.sh
