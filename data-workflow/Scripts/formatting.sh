@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Directory containing the JSON files
-directory="../Data/json/weather"
+directory="../Data/json/24h_weather"
 
 # CSV file to store combined data
-combined_csv="../Data/csv/combined.csv"
+combined_csv="../Data/csv/combined24.csv"
 
 # Create the CSV file and add headers
 echo "Date,Location,Country,Latitude,Longitude,Timezone ID,Localtime Epoch,Localtime,Max Temp (C),Max Temp (F),Min Temp (C),Min Temp (F),Avg Temp (C),Avg Temp (F),Max Wind (mph),Max Wind (kph),Total Precip (mm),Total Precip (in),Total Snow (cm),Avg Visibility (km),Avg Visibility (miles),Avg Humidity,Daily Will it Rain,Daily Chance of Rain,Daily Will it Snow,Daily Chance of Snow,Condition Text,Condition Icon,Condition Code,UV,Sunrise,Sunset,Moonrise,Moonset,Moon Phase,Moon Illumination,Time,Temp (C),Temp (F),Is Day,Condition Text Hour,Condition Icon Hour,Condition Code Hour,Wind (mph),Wind (kph),Wind Degree,Wind Direction,Pressure (mb),Pressure (in),Precip (mm),Precip (in),Snow (cm),Humidity,Cloud,Feels Like (C),Feels Like (F),Windchill (C),Windchill (F),Heat Index (C),Heat Index (F),Dewpoint (C),Dewpoint (F),Will it Rain,Chance of Rain,Will it Snow,Chance of Snow,Visibility (km),Visibility (miles),Gust (mph),Gust (kph),UV Hour" > "$combined_csv"

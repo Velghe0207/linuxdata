@@ -24,12 +24,12 @@ jobs:
         pip install pandas matplotlib
 
     - name: Run analysis script
-      run: python scripts/analyse_weather.py
+      run: python scripts/analyse.py
 
     - name: Upload analysis results to GitHub Pages
       run: |
         mkdir -p docs
-        cp Data/analysed_data/*.png docs/
+        cp Data/analyse/*.png docs/
         echo "<html><body>" > docs/index.html
         for img in docs/*.png; do
           echo "<img src=\"$img\" style=\"width:100%;\"><br>" >> docs/index.html
